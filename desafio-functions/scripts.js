@@ -2,8 +2,8 @@ const pedra = document.getElementById("rock");
 const papel = document.getElementById("paper");
 const tesoura = document.getElementById("scissors");
 const result = document.querySelector(".result")
-const yourScore = document.querySelector(".your-score")
-const machineScore = document.getElementById("machine")
+const yourScore = document.getElementById("your-choice")
+const machineScore = document.getElementById("machine-choice")
 let humanScore = 0;
 let machineScoreValue = 0;
 
